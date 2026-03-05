@@ -1,13 +1,20 @@
-import "./App.css";
+import React from 'react'
+import Random from './Components/Random'
+import Tag from './Components/Tag'
 
-function App() {
+
+const App = () => {
   return (
-    <main className="flex justify-center gap-4 flex-col min-h-screen">
-      <h1 className="text-3xl text-center font-bold underline">React & Tailwind CSS Starter Pack</h1>
-      <p className="text-center text-xl">This is a starter pack for React & Tailwind CSS projects.</p>
-      <img src="https://bit.ly/3wsmzTy" alt="meme" className="mx-auto" />
-    </main>
-  );
+    <div className='w-full h-screen flex flex-col background items-center'>
+      <h1 className='bg-white rounded-lg w-11/12 text-center mt-[40px]
+      px-10 py-2 text-4xl font-bold '>RANDOM GIFS</h1>
+      <div className='flex flex-col w-full items-center gap-y-10 mt-[30px]'>
+        <Random/>
+        <Tag/>
+      </div>
+      
+    </div>
+  )
 }
 
-export default App;
+export default App
