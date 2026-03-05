@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/gif-generator/static/css/main.a5f84db2.css",
-    "main.js": "/gif-generator/static/js/main.280c974d.js",
-    "index.html": "/gif-generator/index.html",
-    "main.a5f84db2.css.map": "/gif-generator/static/css/main.a5f84db2.css.map",
-    "main.280c974d.js.map": "/gif-generator/static/js/main.280c974d.js.map"
+    "main.css": "/Gif-Generator/static/css/main.a5f84db2.css",
+    "main.js": "/Gif-Generator/static/js/main.280c974d.js",
+    "index.html": "/Gif-Generator/index.html",
+    "main.a5f84db2.css.map": "/Gif-Generator/static/css/main.a5f84db2.css.map",
+    "main.280c974d.js.map": "/Gif-Generator/static/js/main.280c974d.js.map"
   },
   "entrypoints": [
     "static/css/main.a5f84db2.css",
